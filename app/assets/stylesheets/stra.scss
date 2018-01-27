@@ -1,0 +1,25 @@
+.planlist{
+  height: 1500px;
+}
+
+.planlist-item p{
+  border-top: 2px solid #dee7ec;
+  font-size:22px;
+  color: red;
+  font-weight:bold;
+}
+
+.actionmap{
+  float:left;
+  padding:0px 10px 10px 0px;
+}
+
+.place-a{
+  font-weight:bold;
+  color: red;
+}
+
+.place-b{
+  font-weight:bold;
+  color: green;
+}

@@ -1,0 +1,144 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+  box-sizing:border-box;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  line-height:90px;
+  font-size: 36px;
+  padding: 0px 40px;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-list li {
+  float: left;
+}
+
+.header-item{
+  float: left;
+    line-height:90px;
+    display: block;
+    text-decoration: none;
+    padding:0px 25px;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.header-item:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.main {
+  margin-top:24px;
+  padding: 60px 36px;
+  background-color:#bdf7f1;
+}
+
+.friends {
+  padding: 80px 48px 50px 48px;
+  float:left;
+}
+
+.copy-container h1 {
+  font-size: 100px;
+}
+
+.copy-container h2 {
+  font-size: 40px;
+}
+
+.copy-container h1 span {
+  color: red;
+}
+.copy-container h2 span {
+  color: orange;
+}
+
+
+.contents {
+  height: 1100px;
+  margin-top: 50px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.field{
+  padding: 10px 20px;
+
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+input,textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
