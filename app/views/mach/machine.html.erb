@@ -3,7 +3,7 @@
     <!--><meta charset="utf-8"><!-->
     <title>SS2</title>
     <link rel="stylesheet" href="stylesheet.css">
-    
+
     <div class="header">
       <div class="header-logo"><a href="/" class="header-item">創造設計第二</a></div>
       <div class="header-list">
@@ -17,16 +17,36 @@
   <body>
   	<div class="main">
   	  <div class="contents">
-  		<div class="contents-item">
-  		  <h2 class="sayu" style="text-shadow: 2px 2px 4px black">さゆ(17歳JK)</h2>
-  		    白いピンポン玉を運ぶ<br>
-  		  <img class="sayu1" src="sayu_1.jpg">
-  		  <img class="sayu2" src="sayu_2.jpg">
-	  	  <h2 class="mikan">みかん(17歳JK)</h2>
-	  	 オレンジ色のピンポン玉を運ぶ
-	  	</div>
-	  </div>
+    		  <h2 class="sayu" style="text-shadow: 2px 2px 4px black">さゆ(17歳JK)</h2>
+    		    白いピンポン玉を運ぶ<br>
+    		  <img class="sayu1" src="sayu_1.jpg">
+    		  <img class="sayu2" src="sayu_2.jpg">
+  	  	  <h2 class="mikan">みかん(17歳JK)</h2>
+  	  	    オレンジ色のピンポン玉を運ぶ
+        <h2 class="smallsection-title" style="padding-bottom:10px;">マシン概要</h2>
+        <div class="branch">
+          <h4>- マシン本体</h4>
+            　マシン本体は大きく分けて三段構造になっており、最下層がライントレース用センサ回路とモーター駆動用電池ボックス、
+            中段がマイコン、モータードライバ回路とマイコン用電池ボックスを搭載し、最上段が回収機構と箱を積んでいる。<br>
+            　フレームはタミヤのユニバーサルプレート、プラスチック段ボールと画用紙を使い分けている。ボールを箱に入れて渡すという特性上、
+            マシンの大きさと幅が大きめの設計になった。箱が最上段にあるため中段のマイコンからの配線が外から見えない利点を持つ一方、
+            配線が非常にしづらいデメリットも生んでしまった。
+        </div>
+        <div class="branch">
+          <h4>- 制御部</h4>
+            　使用したマイコンはH8マイコン。AD変換に使えるポートが４つあったのでそのうち１つはPSD距離センサーに残りの２つまたは３つをライントレース用
+            フォトリフレクタに用いることになった。H8のタイマZ0でDCモーター、タイマZ1でサーボモーターをデューティー比を適宜変えて制御した。
+        </div>
+        <div class="branch">
+          <h4>- 駆動部</h4>
+            　車体の移動にタミヤのギヤボックスで減速比を調整したDCモーター、ボールの回収機構用にサーボモータを使用した。さらにシャベルの上げ下げをうまく
+            利用した輪ゴムでの箱の受け渡しを実現した。
+        </div>
+        <div class="branch">
+          <h4>練習での一幕</h4>
+          <video controls loop style="width:480px;" style="height:270px;"><source src="practice3.mp4"></video>
+        </div>
+	    </div>
   	</div>
   </body>
 </html>
-  
